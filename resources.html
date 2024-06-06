@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/firebase-connections/google.js" defer type="module"></script>
+    <script src="/firebase-connections/git.js" defer type="module"></script>
+    <script src="/firebase-connections/twitter.js" defer type="module"></script>
+    <title>Irula Endangered Languages</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="map.css">
+    <link rel="stylesheet" href="cards.css">
+    <link rel="stylesheet" href="slider.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+</head>
+<body>
+    <!-- Navbar -->
+
+    <nav class="p-3 flex bg-white justify-between items-center fixed top-0 left-0 right-0 z-20 shadow-md">
+
+        <div id="nav-menu" class="hidden lg:flex gap-12 p-3 justify-between items-center">
+            <a href="#" class="font-medium hover:text-primary">Create your account</a>
+            <a href="#" class="font-medium hover:text-primary">sign in</a>
+            <button placeholder="Search">Search</button>
+            <button1 type="submit" id="google-login-btn" class="google-button"><i class='bx bxl-google'></i></button1>
+            <button1 type="submit" id="github-login-btn" class="github-button"><i class='bx bxl-github' ></i></button1>
+            <button1 type="submit" id="twitter-login-btn" class="twitter-button"><i class='bx bxl-twitter' ></i></button1>
+        </div>
+
+        <div class="header">
+            <div class="logo">
+              <img src="assets/logo.png" alt="ELP Logo">
+            </div>
+            <div class="header-right">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>|</li>
+                <li><a href="languages.html">Languages</a></li>
+                <li>|</li>
+                <li><a href="#">Resources</a></li>
+                <li>|</li>
+                <li><a href="#">Blog</a></li>
+                <li>|</li>
+                <li><a href="#">Download</a></li>
+                <li>|</li>
+                <li><a href="#">About</a></li>
+                <li>|</li>
+                <li><a href="#">Mentors</a></li>
+              </ul>
+            </div>
+        </div> 
+
+
+    </nav>
+
+    <!-- Cards -->
+    <section class="Language_research">
+        <h2>Browse Resources by Category</h2>
+
+        <p>Current number of resources: 7711</p>
+
+        <p>Use the category buttons below to easily search our resources on information, academic publications, and research concerning the world’s endangered languages! Our resources include information on anthropology, sociology, education, cognitive science, environmental science, public policy, and more and have been uploaded by users and researchers alike. If you have resources or samples of endangered languages, upload your papers, presentations, links, recordings, etc. using the ‘Submit’ button at the top of the page.</p>
+    
+        <div class="card-container">
+            <div class="card">
+                <div class="card-content">
+                    <a href="#"><img src="assets/b1.png" alt="b1"></a>
+                </div>
+            </div>
+    
+            <div class="card">
+                <div class="card-content">
+                    <a href="#"><img src="assets/b2.png" alt="b2"></a>
+                </div>
+            </div>
+    
+            <div class="card">
+                <div class="card-content">
+                    <a href="#"><img src="assets/b3.png" alt="b3"></a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <a href="#"><img src="assets/b4.png" alt="b4"></a>
+                </div>
+            </div>
+    
+            <div class="card">
+                <div class="card-content">
+                    <a href="#"><img src="assets/b5.png" alt="b5"></a>
+                </div>
+            </div>
+    
+            <div class="card">
+                <div class="card-content">
+                    <a href="#"><img src="assets/b6.png" alt="b6"></a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <a href="#"><img src="assets/b7.png" alt="b7"></a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <a href="#"><img src="assets/b8.png" alt="b8"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Infinite slider -->
+
+    
+
+</body>
+<script src="script.js"></script>
+</html>
